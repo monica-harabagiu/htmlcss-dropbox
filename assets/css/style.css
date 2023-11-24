@@ -14,7 +14,20 @@ html {
     display: flex;
 }
 
-/* HEADER START */
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.jumbo-container {
+    padding-inline: 20%;
+}
+
+.container {
+    padding-inline: 25%;
+}
+
+/* SECTION HEADER START */
 
 header {
     background-color: white;
@@ -35,14 +48,10 @@ div.header-left {
     align-items: center;
 }
 
-/* HEADER END */
+/* !SECTION HEADER END */
 
 
-/* JUMBO START */
-
-.contain {
-    padding-inline: 20%;
-}
+/* SECTION JUMBO START */
 
 #jumbo {
     background-color: #B4D0E7;
@@ -66,3 +75,56 @@ h1 {
     font-size: 4em;
     margin-bottom: 40px;
 }
+
+/* !SECTION JUMBO END */
+
+
+/* SECTION 1 START */
+
+#sectione1 {
+    margin-top: 150px;
+}
+
+h2 {
+    font-size: 2em;
+    margin-bottom: 30px;
+}
+
+
+/* cards */
+
+.choose-payment {
+    gap: 40px;
+}
+
+#cards {
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.card-title {
+    text-align: center;
+    border: 1px solid #D1D1D4;
+    border-bottom: 0;
+    padding: 10px;
+}
+
+.card-content {
+    border: 1px solid #D1D1D4;
+    padding: 20px;
+    gap: 30px;
+}
+
+.price {
+    gap: 10px;
+}
+
+.card-content ul {
+    margin-left: 1em;
+}
+
+.card-content ul li {
+    margin-bottom: 10px;
+}
+
+
