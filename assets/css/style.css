@@ -81,7 +81,7 @@ h1 {
 
 /* SECTION 1 START */
 
-#sectione1 {
+#section1 {
     margin-top: 150px;
 }
 
@@ -150,6 +150,27 @@ h2 {
 #dropbox-partner figure {
     flex-basis: 60%;
 }
+
+/* !SECTION 1 END */
+
+
+/* SECTION 2 START */
+
+#section2 {
+    margin-top: 100px;
+}
+
+.benefits {
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.benefit {
+    width: calc((100% / 3) - 20px);
+}
+
+/* !SECTION 2 END */
 
 
 
