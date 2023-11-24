@@ -20,11 +20,11 @@ html {
 }
 
 .jumbo-container {
-    padding-inline: 20%;
+    padding-inline: 15%;
 }
 
 .container {
-    padding-inline: 25%;
+    padding-inline: 20%;
 }
 
 /* SECTION HEADER START */
@@ -68,7 +68,7 @@ div.header-left {
 
 #jumbo figure {
     flex-basis: 70%;
-    margin-bottom: -50px;
+    margin-bottom: -70px;
 }
 
 h1 {
@@ -126,4 +126,16 @@ h2 {
     margin-bottom: 10px;
 }
 
+#horizontal-card {
+    margin-block: 30px;
+}
+
+.card-content-left {
+    flex-basis: 70%;
+}
+
+.card-content-right {
+    flex-basis: 30%;
+    text-align: center;
+}
 
