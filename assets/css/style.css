@@ -269,3 +269,45 @@ h2 {
 
 /* !SECTION 4 END */
 
+
+/* SECTION 5 FAQ START */
+
+#section5 {
+    margin-block: 100px;
+}
+
+.question {
+    align-items: center;
+    justify-content: space-between;
+    margin-block: 30px;
+}
+
+.question h3 {
+    font-size: 14px;
+}
+
+.question .fa-angle-up {
+    display: none;
+}
+
+.answer {
+    margin-bottom: 30px;
+    display: none;
+}
+
+
+/* faq hover */
+
+.faq:hover .answer {
+    display: block;
+}
+
+.faq:hover .question .fa-angle-up {
+    display: block;
+}
+
+.faq:hover .question .fa-angle-down {
+    display: none;
+}
+
+/* !SECTION 5 FAQ END */
