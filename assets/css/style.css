@@ -248,8 +248,24 @@ h2 {
 
 /* end */
 
+/* !SECTION 3 END */
 
 
+/* SECTION 4 START */
 
+#section4 {
+    background-color: #B4D0E7;
+    padding-block: 100px;
+}
 
+.cta-free {
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.cta-free h2 {
+    flex-basis: 50%;
+}
+
+/* !SECTION 4 END */
 
