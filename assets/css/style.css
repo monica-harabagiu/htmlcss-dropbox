@@ -311,3 +311,45 @@ h2 {
 }
 
 /* !SECTION 5 FAQ END */
+
+
+/* SECTION FOOTER START */
+
+footer {
+    background-color: black;
+    color: white;
+    padding-top: 70px;
+    padding-bottom: 40px;
+}
+
+footer nav {
+    margin-top: 20px;
+}
+
+footer ul {
+    list-style-type: none;
+}
+
+footer ul li {
+    margin-bottom: 10px;
+    font-size: 12px;
+}
+
+.footer-menu {
+    justify-content: space-between;
+    gap: 20px;
+    margin-bottom: 100px;
+}
+
+footer .language {
+    gap: 10px;
+    align-items: center;
+    color: #999999;
+    margin-top: 50px;
+    font-size: 14px;
+}
+
+.fa-sort-up {
+    margin-top: 10px;
+}
+
