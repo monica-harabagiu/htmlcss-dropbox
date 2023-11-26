@@ -6,6 +6,11 @@
     /* border: 1px dashed black; */
 }
 
+html {
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+}
+
 :root {
     --grey: #2f2f2f;
     --blue: #0060FF;
@@ -38,10 +43,6 @@
 
 
 /* typography */
-
-html {
-    font-family: sans-serif;
-}
 
 h1 {
     font-size: 4em;
@@ -80,6 +81,9 @@ img {
     width: 100%;
 }
 
+
+/* buttons */
+
 .btn-blue {
     border: none;
     background-color: var(--blue);
@@ -112,7 +116,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding-inline: 1%;
-    height: 13vh;
+    height: 9vh;
     box-shadow: 0 0 5px rgba(0, 0, 72, 0.5);
     position: fixed;
     top: 0;
@@ -143,7 +147,7 @@ header ul li:not(.button-header) {
     color: var(--grey);
     height: 100%;
     vertical-align: middle;
-    padding-top: calc((13vh - var(--navFontSize)) / 2);
+    padding-top: calc((9vh - var(--navFontSize)) / 2);
 }
 
 header ul li:not(.button-header):hover {
@@ -169,6 +173,23 @@ div.header-left {
 #jumbo figure {
     flex-basis: 70%;
     margin-bottom: -70px;
+}
+
+.jumbo-content {
+    gap: 30px;
+}
+
+.jumbo-text button {
+    margin-block: 30px;
+}
+
+.jumbo-text a {
+    color: black;
+}
+
+#jumbo .fa-arrow-down {
+    font-size: 40px;
+    margin-top: 60px;
 }
 
 /* !SECTION JUMBO END */
