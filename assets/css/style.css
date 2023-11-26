@@ -89,7 +89,7 @@ img {
     background-color: var(--blue);
     color: white;
     font-size: 13px;
-    padding: 5px 10px;
+    padding: 10px 15px;
 }
 
 .btn-border {
@@ -97,7 +97,7 @@ img {
     background-color: white;
     color: var(--grey);
     font-size: 13px;
-    padding: 5px 10px;
+    padding: 10px 15px;
 }
 
 .btn-white {
@@ -105,7 +105,7 @@ img {
     background-color: white;
     color: var(--grey);
     font-size: 13px;
-    padding: 5px 10px;
+    padding: 10px 15px;
 }
 
 /* SECTION HEADER START */
@@ -122,6 +122,7 @@ header {
     top: 0;
     left: 0;
     right: 0;
+    z-index: 1;
 }
 
 .header-left,
@@ -201,15 +202,31 @@ div.header-left {
     margin-top: 150px;
 }
 
-/* cards */
-
 .choose-payment {
     gap: 40px;
+    margin-top: 50px;
 }
 
+.choose-payment label {
+    font-size: var(--listFontSize);
+}
+
+.choose-payment-label {
+   align-items: center;
+   gap: 5px;
+}
+
+/* cards */
+
 #cards {
-    gap: 30px;
-    margin-top: 30px;
+    gap: 20px;
+    margin-top: 50px;
+    justify-content: space-between;
+}
+
+.card {
+    width: calc((100% / 3) - 30px);
+    justify-content: stretch;
 }
 
 .card-title {
@@ -221,12 +238,22 @@ div.header-left {
 
 .card-content {
     border: 1px solid #D1D1D4;
-    padding: 20px;
+    padding: 30px 30px 0 30px;
     gap: 30px;
+    height: 100%;
 }
 
 .price {
     gap: 10px;
+    font-size: 13px;
+}
+
+.price span:first-child {
+    font-weight: 600;
+}
+
+.price span:last-child {
+    font-weight: 200;
 }
 
 .card-content ul {
@@ -234,22 +261,47 @@ div.header-left {
 }
 
 .card-content ul li {
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+    font-size: var(--listFontSize);
+    color: var(--grey);
+}
+
+.card-content hr {
+    width: 40px;
+    border: 0.5px solid #D1D1D4;
+}
+
+li .fa-check {
+    color: var(--blue);
+    font-size: 14px;
 }
 
 /* horizontal card */
 
 #horizontal-card {
-    margin-block: 30px;
+    margin-block: 60px;
+}
+
+#horizontal-card .card-content {
+    padding-bottom: 30px;
 }
 
 .card-content-left {
     flex-basis: 70%;
+    gap: 20px;
+}
+
+.card-content-left p {
+    margin-top: 30px;
 }
 
 .card-content-right {
     flex-basis: 30%;
     text-align: center;
+}
+
+.card-content-right button {
+    width: 100%;
 }
 
 /* dropbox partner */
