@@ -531,14 +531,27 @@ footer ul {
 }
 
 footer ul li {
-    margin-bottom: 10px;
+    margin-bottom: 15px;
     font-size: var(--navFontSize);
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+footer ul li a:hover {
+    color: rgb(255, 255, 255, 0.8);
 }
 
 .footer-menu {
     justify-content: space-between;
     gap: 20px;
     margin-bottom: 100px;
+}
+
+footer hr {
+    width: 13%;
 }
 
 footer .language {
