@@ -53,7 +53,7 @@ h1 {
 h2 {
     font-size: 2em;
     margin-bottom: 30px;
-    line-height: 140$;
+    line-height: 140%;
 }
 
 h4 {
@@ -97,6 +97,10 @@ img {
     padding: 10px 15px;
 }
 
+.btn-blue:hover {
+    background-color: rgba(0, 98, 255, 0.8)
+}
+
 .btn-border {
     border: 1px solid var(--grey);
     background-color: white;
@@ -105,12 +109,20 @@ img {
     padding: 10px 15px;
 }
 
+.btn-border:hover {
+    border-color: rgb(46, 46, 46, 0.5);
+}
+
 .btn-white {
     border: none;
     background-color: white;
     color: var(--grey);
     font-size: 13px;
     padding: 10px 15px;
+}
+
+.btn-white:hover {
+    background-color: rgb(255, 255, 255, 0.8);
 }
 
 /* SECTION HEADER START */
@@ -452,6 +464,7 @@ li .fa-check {
 
 .cta-free h2 {
     flex-basis: 50%;
+    color: #61082B;
 }
 
 /* !SECTION 4 END */
@@ -460,7 +473,7 @@ li .fa-check {
 /* SECTION 5 FAQ START */
 
 #section5 {
-    margin-block: 100px;
+    margin-block: 150px;
 }
 
 .question {
